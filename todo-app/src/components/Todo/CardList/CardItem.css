@@ -1,0 +1,13 @@
+.containerItem {
+    width: calc(25% - 75px / 4);
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid black;
+   
+}
+
+.containerItem__title,
+.containerItem__status,
+.containerItem__description > p:first-child {
+    font-weight: bold;
+}
