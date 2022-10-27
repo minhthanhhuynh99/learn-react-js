@@ -44,15 +44,12 @@ function Contact(props) {
         },
         {
           name : "Hậu"
-        },
+        }
       ] 
     return (
         <div className='containerContact'>
             {data.map((data,index) => (
-          <CardItem 
-            key={index}
-            name = {data.name}
-          />
+          <CardItem key={index} name = {data.name}/>
 
         ))}
         </div>

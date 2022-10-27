@@ -10,58 +10,12 @@ import CardItem from './components/Todo/CardList/CardItem';
 
 
 function App() {
-  const data = [
-    {
-      name : "Thành"
-    },
-    {
-      name : "Quân"
-    },
-    {
-      name : "Hiếu"
-    },
-    {
-      name : "Khang"
-    },
-    {
-      name : "Thảo"
-    },
-    {
-      name : "Trang"
-    },
-    {
-      name : "Tuấn"
-    },
-    {
-      name : "Minh"
-    },
-    {
-      name : "Lộc"
-    },
-    {
-      name : "Tường"
-    },
-    {
-      name : "Mãn"
-    },
-    {
-      name : "Hậu"
-    },
-  ] 
+
   return (
     <div>
         <Header/>
         <Sidebar/>
-        {data.map((data,index) => (
-          <Contact 
-            key={index}
-            name = {data.name}
-          />
-
-        ))}
-
-        
-
+        <Contact/>
         <Footer/>
     </div>
   );
