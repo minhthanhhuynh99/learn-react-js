@@ -8,20 +8,53 @@ Contact.propTypes = {
 };
 
 function Contact(props) {
+    const data = [
+        {
+          name : "Thành"
+        },
+        {
+          name : "Quân"
+        },
+        {
+          name : "Hiếu"
+        },
+        {
+          name : "Khang"
+        },
+        {
+          name : "Thảo"
+        },
+        {
+          name : "Trang"
+        },
+        {
+          name : "Tuấn"
+        },
+        {
+          name : "Minh"
+        },
+        {
+          name : "Lộc"
+        },
+        {
+          name : "Tường"
+        },
+        {
+          name : "Mãn"
+        },
+        {
+          name : "Hậu"
+        },
+      ] 
     return (
         <div className='containerContact'>
-            <CardItem />
-            <CardItem/>
-            <CardItem/>
-            <CardItem/>
-            <CardItem/>
-            <CardItem/>
-            <CardItem/>
-            <CardItem/>
-            <CardItem/>
-            <CardItem/>
-            <CardItem/>
-            <CardItem/>
+            {data.map((data,index) => (
+          <CardItem 
+            key={index}
+            name = {data.name}
+          />
+
+        ))}
         </div>
     );
 }

@@ -47,14 +47,22 @@ function App() {
     {
       name : "Hậu"
     },
-  ]
+  ] 
   return (
     <div>
         <Header/>
         <Sidebar/>
-        <Contact/>
-        <Footer/>
+        {data.map((data,index) => (
+          <Contact 
+            key={index}
+            name = {data.name}
+          />
 
+        ))}
+
+        
+
+        <Footer/>
     </div>
   );
 }
