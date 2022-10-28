@@ -10,4 +10,19 @@
 .containerItem__status,
 .containerItem__description > p:first-child {
     font-weight: bold;
+    
 }
+
+.containerItem button {
+    border: none;
+    margin-left: 120px;
+   
+}
+
+.containerItem select {
+    border: 3px solid black;
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+}
+
