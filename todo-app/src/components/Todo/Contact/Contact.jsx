@@ -11,76 +11,77 @@ function Contact(props) {
     const data = [
         {
           name : "Thành",
-          title : "task 1",
+          title : "Task 1",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Toàn",
-          title : "task 2",
+          title : "Task 2",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Hiếu",
-          title : "task 3",
+          title : "Task 3",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Khang",
-          title : "task 4",
+          title : "Task 4",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Thảo",
-          title : "task 5",
+          title : "Task 5",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Trang",
-          title : "task 6",
+          title : "Task 6",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Tuấn",
-          title : "task 7",
+          title : "Task 7",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Minh",
-          title : "task 8",
+          title : "Task 8",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Lộc",
-          title : "task 9",
+          title : "Task 9",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Ngọc",
-          title : "task 10",
+          title : "Task 10",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Minh",
-          title : "task 11",
+          title : "Task 11",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         },
         {
           name : "Hậu",
-          title : "task 12",
+          title : "Task 12",
           creator : "author 1",
           desscription : "This is a task,This is a task,This is a task..."
         }
+        
       ] 
     return (
         <div className='containerContact'>

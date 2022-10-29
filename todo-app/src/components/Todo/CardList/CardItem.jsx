@@ -20,7 +20,7 @@ function CardItem(props) {
     return (
         <div className="containerItem">
             <p className="containerItem__title">{title}</p>
-            <p className="containerItem__creator">{name}</p>
+            <p className="containerItem__creator">Name: {name}</p>
             <p className="containerItem__status">Status: {status}</p>
             <hr className='containerItem__lineBreak'></hr>
             <p className="containerItem__description">Desscription: {desscription}</p>

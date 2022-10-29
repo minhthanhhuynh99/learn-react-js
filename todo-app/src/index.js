@@ -3,20 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/Todo/Header/Header';
-import Sidebar from './components/Todo/Sidebar/Sidebar';
-import Contact from './components/Todo/Contact/Contact';
-import Footer from './components/Todo/Footer/Footer';
-import CardItem from './components/Todo/CardList/CardItem';
+// import Header from './components/Todo/Header/Header';
+// import Sidebar from './components/Todo/Sidebar/Sidebar';
+// import Contact from './components/Todo/Contact/Contact';
+// import Footer from './components/Todo/Footer/Footer';
+// import CardItem from './components/Todo/CardList/CardItem';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <Sidebar/>
-    <Contact/>
-    <Footer/>
+    <App/>
   </React.StrictMode>
 );
 
