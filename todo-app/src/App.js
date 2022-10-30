@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-//Component import
-import Header from './components/Todo/Header/Header';
-import Sidebar from './components/Todo/Sidebar/Sidebar';
-import Contact from './components/Todo/Contact/Contact';
-import Footer from './components/Todo/Footer/Footer';
-import CardItem from './components/Todo/CardList/CardItem';
 
+import './App.css';
+import './styles/index.css'
+import Header from './layouts/Header';
+import Sidebar from './layouts/Sidebar';
+import Body from './layouts/Body';
+import Footer from './layouts/Footer';
 
 
 function App() {
-
   return (
-    <div>
+    <div className='layout'>
         <Header/>
         <Sidebar/>
-        <Contact/>
+        <Body/>
         <Footer/>
     </div>
   );
 }
+
 
 export default App;
