@@ -4,56 +4,53 @@ export const STATUS = {
     DONE : 'Done'
 };
 
-const descriptionData = 'This is a task, This is a task, This is a task, This is a task, This is a task,'
+export const todoList =[
+    {
+      title:"task1",
+      creator:"Minh",
+      status: STATUS.DOING,
+      description: "This is a task, This is a task, This is a task,...",
+    },
+    {
+      title:"task2",
+      creator:"Hoàng",
+      status: STATUS.DOING,
+      description: "This is a task, This is a task, This is a task,...",
+    },
+    {
+      title:"task3",
+      creator:"Hiếu",
+      status: STATUS.DOING,
+      description: "This is a task, This is a task, This is a task,...",
+    },
+    {
+      title:"task4",
+      creator:"Quân",
+      status: STATUS.DONE,
+      description: "This is a task, This is a task, This is a task,...",
+    },
+    {
+      title:"task5",
+      creator:"Khang",
+      status: STATUS.DOING,
+      description: "This is a task, This is a task, This is a task,...",
+    },  {
+      title:"task6",
+      creator:"Trọng",
+      status: STATUS.NEW,
+      description: "This is a task, This is a task, This is a task,...",
+    },  {
+      title:"task7",
+      creator:"Toàn",
+      status : STATUS.DOING,
+      description: "This is a task, This is a task, This is a task,...",
+    },
+    {
+      title:"task8",
+      creator:"Huy",
+      status: STATUS.DONE,
+      description: "This is a task, This is a task, This is a task,...",
+    }
+  ];
 
-const todoList = [
-    {
-        title : 'Task 1',
-        creator : 'Thành',
-        status : NEW,
-        description : descriptionData
-    },
-    {
-        title : 'Task 2',
-        creator : 'Luân',
-        status : DOING,
-        description : descriptionData
-    },
-    {
-        title : 'Task 3',
-        creator : 'Quân',
-        status : DONE,
-        description : descriptionData
-    },
-    {
-        title : 'Task 4',
-        creator : 'Khang',
-        status : NEW,
-        description : descriptionData
-    },
-    {
-        title : 'Task 5',
-        creator : 'Hiếu',
-        status : DOING,
-        description : descriptionData
-    },
-    {
-        title : 'Task 6',
-        creator : 'Phong',
-        status : DONE,
-        description : descriptionData
-    },
-    {
-        title : 'Task 7',
-        creator : 'Thanh',
-        status : DONE,
-        description : descriptionData
-    },
-    {
-        title : 'Task 8',
-        creator : 'Man',
-        status : NEW,
-        description : descriptionData
-    },
-];
 
