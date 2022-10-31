@@ -10,7 +10,7 @@
 
 .containerItem {
     width: calc(25% - 75px/ 4);
-    height: 150px;
+    height: 180px;
     border-radius: 10px;
     border: 2px solid var(--primary);
     padding: 15px;
@@ -37,4 +37,16 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient:  vertical;
 }
+
+.containerItem  button {
+    width: 80px;
+    height: 30px;
+    background-color: yellowgreen;
+    color: white;
+    margin-left: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+
 

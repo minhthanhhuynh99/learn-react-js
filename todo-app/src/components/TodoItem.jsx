@@ -1,11 +1,29 @@
 import React from 'react';
+import { useState } from 'react';
 import PropTypes from 'prop-types';
+import { STATUS } from '../constants'
 TodoItem.propTypes = {
     
 };
 
 function TodoItem(props) {
-    const {title, creator, status ,description} = props
+    const {title, creator,description} = props
+    const [status, setStatus] = useState(STATUS.NEW)
+
+    const handleSubmit = () =>{
+        switch (status) {
+         case STATUS.NEW:
+           setStatus(STATUS.DOING);
+          
+           break;
+           case STATUS.DOING:
+             setStatus(STATUS.DONE);
+             break;
+         default :
+         setStatus(STATUS.NEW) 
+           break;
+        }
+     }
 
     return (
         <div className='containerItem'>
@@ -16,6 +34,14 @@ function TodoItem(props) {
             <p className='containerItem__description'>Description: </p>
             <p>{description}</p>
             
+           <div>
+           <button 
+                onClick={handleSubmit}
+                value={status}
+                >
+                  {status}
+            </button>
+           </div>
         </div>
     );
 }
