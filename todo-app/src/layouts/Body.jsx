@@ -24,7 +24,8 @@ function Body( { mode , handleChangeRenderMode } ) {
       case MODE.SHOW_LIST:
         return renderTodoItem();
       case MODE.ADD_NEW:
-        <Form 
+        return (
+          <Form 
           handleSubmit={(e) =>{
               e.preventDefault();
               const data = {
@@ -37,6 +38,7 @@ function Body( { mode , handleChangeRenderMode } ) {
               handleChangeRenderMode(MODE.SHOW_LIST)
           }} 
         />
+        )
         default:
           return renderTodoItem();    
     };
@@ -44,12 +46,12 @@ function Body( { mode , handleChangeRenderMode } ) {
 
       return (
         <div className='containerBody'>
-            {todoList.map((item,index) => (
+            {/* {todoList.map((item,index) => (
                 <TodoItem key={index} title={item.title} creator={item.creator} status={item.status} description={item.description} />
-            ))}
+            ))} */}
 
-            <Form handleSubmit={() => {}}/>
-            {/* {chooseMode()} */}
+            {/* <Form handleSubmit={() => {}}/> */}
+            {chooseMode()}
         </div>
       )
   }

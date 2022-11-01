@@ -5,6 +5,7 @@ import Header from './layouts/Header';
 import Sidebar from './layouts/Sidebar';
 import Body from './layouts/Body';
 import Footer from './layouts/Footer';
+import Form from './shared/Form';
 import { MODE } from './constants'
 
 
