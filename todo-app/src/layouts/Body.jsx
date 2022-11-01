@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import PropTypes from 'prop-types';
 import TodoItem from '../components/TodoItem'
 import Form from '../shared/Form';
 import { MODE, STATUS, todoList  } from '../constants'
@@ -20,22 +19,26 @@ function Body( { mode , handleChangeRenderMode } ) {
       }
   
   const chooseMode = () => {
+    let dataList =[];
+    localStorage.setItem("datalist" ,JSON.stringify(dataList)) 
+    
     switch (mode) {
       case MODE.SHOW_LIST:
         return renderTodoItem();
       case MODE.ADD_NEW:
         return (
-          <Form 
-          handleSubmit={(e) =>{
+          <Form
+            handleSubmit ={(e) =>{
               e.preventDefault();
+              console.log("hello")
               const data = {
                   title : e.target[0].value,
-                  creator: e.target[1].value,
-                  description: e.target[2].value,
+                  creator : e.target[1].value,
+                  description : e.target[2].value,
                   status: STATUS.NEW,
               };
               setTodoItems([data, ...todoItems]);
-              handleChangeRenderMode(MODE.SHOW_LIST)
+              handleChangeRenderMode(MODE.SHOW_LIST);
           }} 
         />
         )
@@ -50,7 +53,6 @@ function Body( { mode , handleChangeRenderMode } ) {
                 <TodoItem key={index} title={item.title} creator={item.creator} status={item.status} description={item.description} />
             ))} */}
 
-            {/* <Form handleSubmit={() => {}}/> */}
             {chooseMode()}
         </div>
       )
