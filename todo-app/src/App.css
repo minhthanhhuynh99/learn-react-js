@@ -1,4 +1,6 @@
-* {
-    box-sizing: border-box;
-}
+.main-content {
+    display: flex;
+    /* position: relative; */
+    padding-top: 70px;
+  }
 
