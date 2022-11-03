@@ -4,7 +4,8 @@ import {v4 as uuidv4} from 'uuid'
 import './styles.scss'
 
 const Form = (props) => {
-    
+    let todoList = [];
+    localStorage.setItem('todos', JSON.stringify(todoList));
 
     const  [tasks ,setTasks] = useState({
         id : uuidv4(),
@@ -25,9 +26,8 @@ const Form = (props) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // formValidation()
-        let data = JSON.parse(localStorage.getItem('todos'));
-        data.push(tasks);
-        localStorage.setItem('todos', JSON.stringify(data))
+        todoList.push(tasks);
+        localStorage.setItem('todos', JSON.stringify(tasks))
     }
     return (
     <>

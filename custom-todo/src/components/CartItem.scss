@@ -1,0 +1,28 @@
+.cartItemContainer {
+    width: 250px;
+    height: 230px;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.cartItemContainer__header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-bottom: 2px solid wheat;
+}
+
+.cartItemContainer__body {
+    padding: 15px;
+}
+
+.cartItemContainer__btn  button{
+    width: 70px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 80px;
+}
+

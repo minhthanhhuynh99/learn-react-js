@@ -7,8 +7,7 @@ import './styles.scss';
 
 
 const TodoList = (props) => {
- const  data = localStorage.getItem("todos") ? JSON.parse(localStorage.getItem("todos")) : [];
-//  console.log(datas)
+  const  data = localStorage.getItem("todos") ? JSON.parse(localStorage.getItem("todos")) : [];
   return (
     <>
       <div className="todos">
