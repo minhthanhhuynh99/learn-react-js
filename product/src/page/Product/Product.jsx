@@ -25,6 +25,7 @@ const Product = ({ handleAdd }) => {
    
     return (
         <>
+            <div>Total: {products.length}</div>
             <div className='product-container'>
                 {
                     products.map(item =>(
