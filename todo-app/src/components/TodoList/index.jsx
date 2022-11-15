@@ -1,23 +1,29 @@
 import React from 'react';
-// import { useState } from 'react';
-// import {Status} from '../data/constains'
+import { useState } from 'react';
 import TodoItem from '../TodoItem';
-// import {nemBerTodo} from '../datas/todo'
 import './styles.scss';
 
 
 const TodoList = (props) => {
   const  data = localStorage.getItem("todos") ? JSON.parse(localStorage.getItem("todos")) : [];
+  const [task ,setTask] = useState(data)
+  const removeTodo = (id) => {
+      const remove = task.filter((task) => task.id !== id)
+      localStorage.setItem("todos", JSON.stringify(remove))
+      setTask(remove)
+  }
   return (
     <>
       <div className="todos">
-     { data.map((data,id) => (
+     { task.map((data,index) => (
       <TodoItem 
-      key= {id}
+      key= {index}
+      id ={data.id}
       title= {data.title}
-      creator= {data.creator}
+      author= {data.author}
       status= {data.status}
-      desscription= {data.desscription}
+      desscription= {data.dessctription}
+      removeTodo={removeTodo}
       />
      ))}
       </div>

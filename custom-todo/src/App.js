@@ -4,7 +4,7 @@ import './App.css';
 import Header from './layouts/Header/Header';
 import SideBar from './layouts/SideBar/SideBar';
 import CreateTaskPopup from './modals/CreateTask';
-import { Form } from 'reactstrap';
+import { Modal } from 'reactstrap';
 function App() {
   return (
     <div className="App">
@@ -12,8 +12,8 @@ function App() {
         <SideBar/>
 
         <Routes>
-          <Route path='/Home' element={<Header/>}></Route>
-          <Route path='/SideBar' element={<SideBar/>}></Route>
+          <Route path='/Header' element={<Header/>}></Route>
+          <Route path='/add-new' element={<Modal/>}></Route>
           <Route path='/CreateTaskPopup' element={<CreateTaskPopup/>}></Route>
         </Routes>
     </div>

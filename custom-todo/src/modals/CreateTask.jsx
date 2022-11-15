@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 
-const CreateTaskPopup = ( {modal ,toggle ,save} ) => {
+const CreateTaskPopup = ( {modal ,toggle , save} ) => {
     const [taskName, setTaskName] = useState('');
     const [creator, setCreator] = useState('');
     const [description, setDescription] = useState('')
@@ -18,20 +18,28 @@ const CreateTaskPopup = ( {modal ,toggle ,save} ) => {
         }
         if ( name === 'Description') {
             setDescription(value)
-        }
+        }      
     }
 
     const handleSave = () => {
         let taskObj ={};
-        taskObj['Name'] = taskName
-        taskObj['Creator'] = creator
-        taskObj['Description'] = description
-        save(taskObj)
+        if (
+            taskObj['Name'] = taskName,
+            taskObj['Creator'] = creator,
+            taskObj['Description'] = description
+        ){
+            save(taskObj)
+        }else {
+            return 
+        }
+        
     }
+
+
     return (
         <Modal isOpen={modal} toggle={toggle} >
             <ModalHeader toggle={toggle} className="text-warning">Create New Tasks</ModalHeader>
-                <form action="" >
+                <form action=""  >
                     <div className='form-group'>
                         <label htmlFor="">Title</label>
                         <input type="text"  className='form-control' value={taskName} onChange={handleChange} name='taskName'/>
@@ -45,7 +53,7 @@ const CreateTaskPopup = ( {modal ,toggle ,save} ) => {
                         <textarea  id="" cols="30" rows="3" className='form-control' value={description} onChange={handleChange} name='Description'/>
                     </div>
                     <div className='form-group'>
-
+                        
                     </div>
                 </form>
             <ModalFooter>

@@ -4,7 +4,6 @@ import TodoList from '../../components/TodoList';
 const Header = () => {
     return (
         <>
-            <h3>Todo-List</h3>
             <div className='containerHeader'>
                 <TodoList />
             </div>

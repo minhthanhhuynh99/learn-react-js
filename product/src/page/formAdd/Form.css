@@ -1,0 +1,27 @@
+.container {
+    margin: 120px auto;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(149, 216, 216);
+}
+.container h3 {
+    color: rgb(47, 47, 233);
+    margin-bottom: 35px;
+}
+
+ .form-container input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    outline: none;
+
+ }
+
+ .form-container button {
+    padding: 5px 15px;
+    background-color: rgb(74, 74, 245);
+    border: none;
+    border-radius: 5px;
+    color: white;
+ }

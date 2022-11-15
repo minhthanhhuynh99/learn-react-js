@@ -1,10 +1,10 @@
 .sidebar {
     width: 160px;
+
     background-color: var(--orange);
   
     &__item {
-      height: 40px;
-      width: inherit;
+      
       display: flex;
       justify-content: center;
       align-items: center;
@@ -16,3 +16,4 @@
       }
     }
   }
+  
