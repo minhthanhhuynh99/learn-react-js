@@ -1,0 +1,66 @@
+{
+  "product": [
+    {
+      "id": "6",
+      "name": "ĐỒNG HỒ NAM CHÍNH HÃNG AOUKE AK09-2",
+      "img": "https://zenwatch.vn/uploads/dong-ho-aouke-AK09-avt-2.jpg",
+      "price": "20"
+    },
+    {
+      "id": "e",
+      "name": "ĐỒNG HỒ NAM CHÍNH HÃNG TEINTOP T7015-1",
+      "img": "https://zenwatch.vn/uploads/teintop---7015_01_avt.jpg",
+      "price": "50"
+    },
+    {
+      "id": "a",
+      "name": "Đồng hồ Edifice EQB-1200D-2A - Chính Hãng",
+      "img": "https://casio.anhkhue.com/imageresize.php?path=upload/images/edifice/EQB-1200D-2ADR.png&q=80",
+      "price": "60"
+    },
+    {
+      "id": "1",
+      "name": "Đồng hồ Q&Q QQ-S306J302Y",
+      "img": "https://www.dangquangwatch.vn/upload/product/1553656876_S306J302Y.jpg",
+      "price": "100"
+    },
+    {
+      "id": "3",
+      "name": "Đồng hồ Q&Q QQ-S306J312Y",
+      "img": "https://www.dangquangwatch.vn/upload/product/1915799664_S306J312Y.jpg",
+      "price": "20"
+    },
+    {
+      "id": "4",
+      "name": "Đồng hồ nam chính hãng Teintop T7015-1",
+      "img": "https://thanhhungwatch.vn/uploads/T7015-1_(1).jpg",
+      "price": "300"
+    },
+    {
+      "id": "8",
+      "name": "EDIFICE EFR-526L-1AV",
+      "img": "https://www.casio-vietnam.vn/wp-content/uploads/2021/12/EFR-526L-1AV.png",
+      "price": "500"
+    }
+  ],
+  "order": [
+    {
+      "name": "ĐỒNG HỒ NAM CHÍNH HÃNG AOUKE AK09-2",
+      "price": "20",
+      "qty": 1,
+      "id": 1
+    },
+    {
+      "name": "ĐỒNG HỒ NAM CHÍNH HÃNG TEINTOP T7015-1",
+      "price": "50",
+      "qty": 1,
+      "id": 2
+    },
+    {
+      "name": "Đồng hồ Edifice EQB-1200D-2A - Chính Hãng",
+      "price": "60",
+      "qty": 1,
+      "id": 3
+    }
+  ]
+}

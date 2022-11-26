@@ -11,7 +11,6 @@ const Cart = ( {cart, setCart, handleChange  } ) => {
         ))
         setPrice(ans);
     }
-    console.log(price)
 
     const handleRemove = (id) => {
         const arr = cart.filter((item) => item.id !== id);
@@ -48,6 +47,7 @@ const Cart = ( {cart, setCart, handleChange  } ) => {
             <div>
                 <span>Thành tiền:</span>
                 <span>{price}</span>
+                {console.log(price)}
             </div>
         </div>
     )     

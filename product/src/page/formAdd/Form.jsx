@@ -57,7 +57,7 @@ const Form = () => {
           value={image}
           onChange={e => setImage(e.target.value)}
         /> <br />
-        <input type="text"
+        <input type="number"
           placeholder='Enter Price...'
           value={price}
           onChange={e => setPrice(e.target.value)}

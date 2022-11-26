@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.product-cart {
+    width: 300px;
+    background-color: rgb(66, 64, 64);
+    border-radius: 15px;
+}
+
+.product-img img{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: aliceblue;
+    object-fit: cover;
+    align-items: center;
+    margin: 15px 25px;
+}
+.product-cart a {
+    margin-left: 140px;
+    color: rgb(240, 24, 24);
+}
+
+.product-cart p {
+    font-weight: bold;
+    color: gainsboro;
+    margin-left: 15px;
+}
+
+.product-cart button {
+   margin-left: 120px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+

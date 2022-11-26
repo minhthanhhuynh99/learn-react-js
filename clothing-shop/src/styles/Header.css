@@ -1,0 +1,43 @@
+.header {
+    position: sticky;
+    top: 0;
+    min-height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(189, 188, 188);
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(32, 31, 31);
+    padding-left: 40px;
+    text-shadow: 5px 5px 5px;
+}
+
+
+.header-link ul {
+    display: flex;
+}
+
+.header-link ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header-link ul li a {
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(32, 31, 31);
+    padding: 0px 18px;
+}
+
+.header-link ul li a:hover {
+    color: rgb(232, 122, 122);
+}

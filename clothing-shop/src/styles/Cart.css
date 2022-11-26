@@ -1,0 +1,68 @@
+.order-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #EAE3E3;
+    text-align: center;
+}
+
+
+.order-total {
+    font-weight: bold;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.order-item, .order-qty, .order-price {
+    display: inline-flex;
+    min-width: 28%;
+}
+
+.btn {
+    font-weight: bold;
+    background:  grey;
+    outline: none;
+    border: 1px solid white;
+    padding: 2px 7px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #BDBCBC;
+    color: black;
+}
+
+.btn:active {
+    background: #053745;
+}
+
+.input {
+    width: 30px;
+    text-align: center;
+}
+
+.delete-btn {
+    background-color: #04313d;
+    color: #EAE3E3;
+    border-radius: 3px;
+}
+
+.total,
+.total-price,
+.place-order-btn {
+    display: inline-flex;
+}
+
+.total {
+   width: 300px;
+}
+
+.place-order-btn {
+    background-color: #04313d;
+    padding: 5px 10px;
+    display: inline;
+    width: 150px;
+    margin-left: 270px;
+    color: #EAE3E3;
+    border-radius: 15px;
+    cursor: pointer;
+}
