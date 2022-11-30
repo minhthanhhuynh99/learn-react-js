@@ -1,9 +1,60 @@
 {
-    "foods": [
-        {
-            "id": "1",
-            "name": "Xôi gà",
-            "price": "10000"
-        }
-    ]
+  "foods": [
+    {
+      "id": "15179165-4414-49b5-821d-7fe83b672be1",
+      "name": "pizza",
+      "price": "15000",
+      "img": "https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg"
+    },
+    {
+      "id": "94a3908d-56e4-4337-b4ca-47d517fb7267",
+      "name": "Pizza 2",
+      "price": "18000",
+      "img": "https://media.istockphoto.com/id/1192094401/photo/delicious-vegetarian-pizza-on-white.jpg?s=612x612&w=0&k=20&c=Qsm2ikAI0Oz5JMu2COCmAODV_5U7YZtipj8Ic7BtJF8="
+    }
+  ],
+  "order": [
+    {
+      "name": "pizza",
+      "price": "15000",
+      "img": "https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg",
+      "qty": 1,
+      "id": 7
+    },
+    {
+      "name": "pizza",
+      "price": "15000",
+      "img": "https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg",
+      "qty": 1,
+      "id": 8
+    },
+    {
+      "name": "Pizza 2",
+      "price": "18000",
+      "img": "https://media.istockphoto.com/id/1192094401/photo/delicious-vegetarian-pizza-on-white.jpg?s=612x612&w=0&k=20&c=Qsm2ikAI0Oz5JMu2COCmAODV_5U7YZtipj8Ic7BtJF8=",
+      "qty": 1,
+      "id": 9
+    },
+    {
+      "name": "pizza",
+      "price": "15000",
+      "img": "https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg",
+      "qty": 1,
+      "id": 10
+    },
+    {
+      "name": "pizza",
+      "price": "15000",
+      "img": "https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg",
+      "qty": 1,
+      "id": 11
+    },
+    {
+      "name": "pizza",
+      "price": "15000",
+      "img": "https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg",
+      "qty": 1,
+      "id": 12
+    }
+  ]
 }
